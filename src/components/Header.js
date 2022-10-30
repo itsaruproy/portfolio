@@ -1,5 +1,6 @@
 import React from 'react'
-import { Flex, Box, Button, Link, Text } from '@chakra-ui/react'
+import { Flex, Box, Button, Text } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -7,10 +8,10 @@ const Header = () => {
             <Flex justifyContent={'space-between'}>
                 <Text>ARUP</Text>
                 <Flex gap={'1rem'}>
-                    <Link>
+                    <Link to={'/projects'}>
                         <Button>Projects</Button>
                     </Link>
-                    <Link>
+                    <Link to={'/'}>
                         <Button>About Me</Button>
                     </Link>
                 </Flex>

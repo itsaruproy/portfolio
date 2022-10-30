@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Flex, Text } from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
 import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaDatabase } from 'react-icons/fa'
-import { SiVisualstudiocode } from 'react-icons/si'
+import { SiVisualstudiocode, SiLinux } from 'react-icons/si'
 
 const Tools = () => {
     return (
@@ -17,6 +17,7 @@ const Tools = () => {
                 <Icon h={6} w={6} as={FaNodeJs} />
                 <Icon h={6} w={6} as={FaDatabase} />
                 <Icon h={6} w={6} as={SiVisualstudiocode} />
+                <Icon h={6} w={6} as={SiLinux} />
             </Flex>
         </Box>
     )

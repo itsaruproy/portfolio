@@ -1,7 +1,7 @@
 import React from 'react'
-import { Heading, Box, Flex, Text, Button } from '@chakra-ui/react'
+import { Heading, Box, Flex, Text, Button, HStack } from '@chakra-ui/react'
 import { Socials, Tools, Languages } from './'
-import { SlDoc } from 'react-icons/sl'
+import { SlDoc, SlCursor } from 'react-icons/sl'
 
 const AboutMe = () => {
     return (
@@ -16,7 +16,20 @@ const AboutMe = () => {
                     </Text>
                 </Box>
                 <Box>
-                    <Button leftIcon={<SlDoc />}>Download CV</Button>
+                    <HStack gap={'0.5rem'}>
+                        <Button leftIcon={<SlDoc />}>
+                            <a
+                                href={
+                                    'https://drive.google.com/file/d/1YIs7SQ-HV6mrR_AMlzIVHEBj9X_S_HWA/view?usp=sharing'
+                                }
+                            >
+                                Download CV
+                            </a>
+                        </Button>
+                        <Button leftIcon={<SlCursor />}>
+                            <a href={'mailto:itsaruproy@gmail.com'}>Email</a>
+                        </Button>
+                    </HStack>
                 </Box>
                 <Tools />
                 <Languages />
