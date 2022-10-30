@@ -2,9 +2,9 @@ import { Box, Button, Heading, HStack, VStack } from '@chakra-ui/react'
 import React from 'react'
 
 const SingleProject = props => {
-    const { key, name, description, yt, github, weblink } = props
+    const { name, description, yt, github, weblink } = props
     return (
-        <Box key={key}>
+        <Box>
             <VStack>
                 <Heading>{name}</Heading>
                 <HStack>
