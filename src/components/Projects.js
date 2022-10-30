@@ -5,7 +5,12 @@ import { SingleProject } from './'
 
 const Projects = () => {
     return (
-        <Flex alignItems={'center'} direction={'column'} gap={'1rem'}>
+        <Flex
+            alignItems={'center'}
+            direction={'column'}
+            gap={'1rem'}
+            py={'2rem'}
+        >
             {MyProjects.map((project, index) => {
                 return <SingleProject key={index} {...project} />
             })}
