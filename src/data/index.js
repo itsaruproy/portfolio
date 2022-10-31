@@ -1,2 +1,3 @@
 import { Projects } from './Projects'
-export { Projects }
+import { contacts } from './Contacts'
+export { Projects, contacts }

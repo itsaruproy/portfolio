@@ -8,6 +8,8 @@ import {
     FaInstagram,
     FaFacebook,
 } from 'react-icons/fa'
+import { contacts } from '../data'
+const { github, linkedin, twitter, instagram, facebook } = contacts
 
 const Socials = () => {
     return (
@@ -16,19 +18,35 @@ const Socials = () => {
                 Connect with me
             </Text>
             <Flex gap={'1rem'}>
-                <Link>
+                <Link href={github} target={'_blank'} rel="noopener noreferrer">
                     <Icon h={6} w={6} as={FaGithub} />
                 </Link>
-                <Link>
+                <Link
+                    href={linkedin}
+                    target={'_blank'}
+                    rel="noopener noreferrer"
+                >
                     <Icon h={6} w={6} as={FaLinkedin} />
                 </Link>
-                <Link>
+                <Link
+                    href={twitter}
+                    target={'_blank'}
+                    rel="noopener noreferrer"
+                >
                     <Icon h={6} w={6} as={FaTwitter} />
                 </Link>
-                <Link>
+                <Link
+                    href={instagram}
+                    target={'_blank'}
+                    rel="noopener noreferrer"
+                >
                     <Icon h={6} w={6} as={FaInstagram} />
                 </Link>
-                <Link>
+                <Link
+                    href={facebook}
+                    target={'_blank'}
+                    rel="noopener noreferrer"
+                >
                     <Icon h={6} w={6} as={FaFacebook} />
                 </Link>
             </Flex>
