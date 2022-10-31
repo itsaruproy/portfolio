@@ -13,7 +13,7 @@ const { github, linkedin, twitter, instagram, facebook } = contacts
 
 const Socials = () => {
     return (
-        <Box>
+        <Box mt={'-0.5rem'}>
             <Text mb={'0.8rem'} fontWeight={'semibold'}>
                 Connect with me
             </Text>

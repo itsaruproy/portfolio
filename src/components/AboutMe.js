@@ -1,7 +1,16 @@
 import React from 'react'
-import { Heading, Box, Flex, Text, Button, HStack } from '@chakra-ui/react'
+import {
+    Heading,
+    Box,
+    Flex,
+    Text,
+    Button,
+    HStack,
+    Link,
+} from '@chakra-ui/react'
 import { Socials, Tools, Languages } from './'
 import { SlDoc, SlCursor } from 'react-icons/sl'
+import { CV_URL, EMAIL_ADDR } from '../data'
 
 const AboutMe = () => {
     return (
@@ -18,16 +27,22 @@ const AboutMe = () => {
                 <Box>
                     <HStack gap={'0.5rem'}>
                         <Button leftIcon={<SlDoc />}>
-                            <a
-                                href={
-                                    'https://drive.google.com/file/d/1YIs7SQ-HV6mrR_AMlzIVHEBj9X_S_HWA/view?usp=sharing'
-                                }
+                            <Link
+                                href={CV_URL}
+                                target={'_blank'}
+                                rel="noopener noreferrer"
                             >
                                 Download CV
-                            </a>
+                            </Link>
                         </Button>
                         <Button leftIcon={<SlCursor />}>
-                            <a href={'mailto:itsaruproy@gmail.com'}>Email</a>
+                            <Link
+                                href={EMAIL_ADDR}
+                                target={'_blank'}
+                                rel="noopener noreferrer"
+                            >
+                                Email
+                            </Link>
                         </Button>
                     </HStack>
                 </Box>

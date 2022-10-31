@@ -5,8 +5,10 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     return (
         <Box width={'100%'} py={'1rem'}>
-            <Flex justifyContent={'space-between'}>
-                <Text>ARUP</Text>
+            <Flex alignItems={'center'} justifyContent={'space-between'}>
+                <Text fontSize={'lg'} fontWeight={'semibold'}>
+                    ARUP
+                </Text>
                 <Flex gap={'1rem'}>
                     <Link to={'/projects'}>
                         <Button>Projects</Button>
