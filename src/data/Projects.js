@@ -14,7 +14,7 @@ export const Projects = [
         name: 'DriveShare',
         description:
             'This is a Google Drive utility tool that helps users to share their Drive folders more securely',
-        yt: '#',
+        yt: 'https://youtu.be/6M1ODqW-U-w',
         github: 'https://github.com/itsaruproy/driveshare-frontend',
     },
     {
