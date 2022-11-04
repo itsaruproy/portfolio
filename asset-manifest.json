@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/static/js/main.ecadb66f.js",
+    "static/media/FunChat.png": "/static/media/FunChat.2874001f6d8caf1cbfb9.png",
+    "static/media/Bloggler.png": "/static/media/Bloggler.e22867920498584b4c51.png",
+    "static/media/DriveShare.png": "/static/media/DriveShare.29e742e5647cb94b68a3.png",
+    "index.html": "/index.html",
+    "main.ecadb66f.js.map": "/static/js/main.ecadb66f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ecadb66f.js"
+  ]
+}
