@@ -19,9 +19,14 @@ const AboutMe = () => {
                 <Heading>Hi, I'm Arup Roy</Heading>
                 <Box maxW={'md'}>
                     <Text>
-                        I'm an Information Technology student at Jadavpur
-                        University, Kolkata. I love building cool stuff for web
-                        using: Javascript, ReactJS, NodeJS, MongoDB
+                        I am an Information Technology student at Jadavpur
+                        University, Kolkata. I am passionate about building cool
+                        web applications and am skilled in technologies such as
+                        JavaScript, ReactJS, NodeJS, and MongoDB. I am also
+                        interested in cloud computing and am always looking to
+                        learn and expand my knowledge in this field. Thank you
+                        for visiting my portfolio website, I hope you enjoy
+                        exploring my projects!
                     </Text>
                 </Box>
                 <Box>
